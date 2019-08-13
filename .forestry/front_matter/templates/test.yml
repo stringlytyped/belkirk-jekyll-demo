@@ -12,12 +12,12 @@ fields:
     label: Question
   - name: answer
     type: textarea
-    default: ''
+    default: "<p></p>"
     config:
       required: false
-      wysiwyg: false
+      wysiwyg: true
       schema:
-        format: markdown
+        format: html-blocks
     label: Answer
   config:
     min: 

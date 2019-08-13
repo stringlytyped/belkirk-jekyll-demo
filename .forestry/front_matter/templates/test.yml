@@ -24,3 +24,5 @@ fields:
     max: 
     labelField: 
   label: Questions
+pages:
+- _data/test.yml
